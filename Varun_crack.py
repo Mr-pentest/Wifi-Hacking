@@ -33,19 +33,19 @@ def print_banner(full=True):
 
     banner_lines = [
         "╔═════════════════════════════════════════════════════════════════════════════════════════════════════╗",
-       f"║       {RED}██{WHITE}╗   {RED}██{WHITE}╗ {RED}█████{WHITE}╗ {RED}██████{WHITE}╗ {RED}██{WHITE}╗   {RED}██{WHITE}╗{RED}███{WHITE}╗   {RED}██{WHITE}╗     {BLUE}██████{WHITE}╗{BLUE}██████{WHITE}╗  {BLUE}█████{WHITE}╗  {BLUE}██████{WHITE}╗{BLUE}██{WHITE}╗  {BLUE}██{WHITE}╗      ║",
-       f"║       {RED}██{WHITE}║   {RED}██{WHITE}║{RED}██{WHITE}╔══{RED}██{WHITE}╗{RED}██{WHITE}╔══{RED}██{WHITE}╗{RED}██{WHITE}║   {RED}██{WHITE}║{RED}████{WHITE}╗  {RED}██{WHITE}║    {BLUE}██{WHITE}╔════╝{BLUE}██{WHITE}╔══{BLUE}██{WHITE}╗{BLUE}██{WHITE}╔══{BLUE}██{WHITE}╗{BLUE}██{WHITE}╔════╝{BLUE}██{WHITE}║ {BLUE}██{WHITE}╔╝      ║",
-       f"║       {RED}██{WHITE}║   {RED}██{WHITE}║{RED}███████{WHITE}║{RED}██████{WHITE}╔╝{RED}██{WHITE}║   {RED}██{WHITE}║{RED}██{WHITE}╔{RED}██{WHITE}╗ {RED}██{WHITE}║    {BLUE}██{WHITE}║     {BLUE}██████{WHITE}╔╝{BLUE}███████{WHITE}║{BLUE}██{WHITE}║     {BLUE}█████{WHITE}╔╝       ║",
-       f"║       {WHITE}╚{RED}██{WHITE}╗ {RED}██{WHITE}╔╝{RED}██{WHITE}╔══{RED}██{WHITE}║{RED}██{WHITE}╔══{RED}██{WHITE}╗{RED}██{WHITE}║   {RED}██{WHITE}║{RED}██{WHITE}║╚{RED}██{WHITE}╗{RED}██{WHITE}║    {BLUE}██{WHITE}║     {BLUE}██{WHITE}╔══{BLUE}██{WHITE}╗{BLUE}██{WHITE}╔══{BLUE}██{WHITE}║{BLUE}██{WHITE}║     {BLUE}██{WHITE}╔═{BLUE}██{WHITE}╗       ║",
-       f"║        {WHITE}╚{RED}████{WHITE}╔╝ {RED}██{WHITE}║  {RED}██{WHITE}║{RED}██{WHITE}║  {RED}██{WHITE}║╚{RED}██████{WHITE}╔╝{RED}██{WHITE}║ ╚{RED}████{WHITE}║    ╚{BLUE}██████{WHITE}╗{BLUE}██{WHITE}║  {BLUE}██{WHITE}║{BLUE}██{WHITE}║  {BLUE}██{WHITE}║╚{BLUE}██████{WHITE}╗{BLUE}██{WHITE}║  {BLUE}██{WHITE}╗      ║",
-       f"║        {WHITE} ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝     ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝      ║",
+       f"║             {RED}██{WHITE}╗    {RED}██{WHITE}╗  {RED}██{WHITE}╗ {RED}███████{WHITE}╗ {RED}██{WHITE}╗            {BLUE}██████{WHITE}╗{BLUE}██████{WHITE}╗  {BLUE}█████{WHITE}╗  {BLUE}██████{WHITE}╗{BLUE}██{WHITE}╗  {BLUE}██{WHITE}╗           ║",
+       f"║            {RED}██{WHITE}║    {RED}██{WHITE}║  {RED}██{WHITE}║ {RED}██{WHITE}╔════╝ {RED}██{WHITE}║           {BLUE}██{WHITE}╔════╝{BLUE}██{WHITE}╔══{BLUE}██{WHITE}╗{BLUE}██{WHITE}╔══{BLUE}██{WHITE}╗{BLUE}██{WHITE}╔════╝{BLUE}██{WHITE}║ {BLUE}██{WHITE}╔╝          ║",
+       f"║            {RED}██{WHITE}║ {RED}█{WHITE}╗ {RED}██{WHITE}║  {RED}██{WHITE}║ {RED}█████{WHITE}╗   {RED}██{WHITE}║           {BLUE}██{WHITE}║     {BLUE}██████{WHITE}╔╝{BLUE}███████{WHITE}║{BLUE}██{WHITE}║     {BLUE}█████{WHITE}╔╝           ║",
+       f"║            {RED}██{WHITE}║{RED}███{WHITE}╗{RED}██{WHITE}║  {RED}██{WHITE}║ {RED}██{WHITE}╔══╝   {RED}██{WHITE}║           {BLUE}██{WHITE}║     {BLUE}██{WHITE}╔══{BLUE}██{WHITE}╗{BLUE}██{WHITE}╔══{BLUE}██{WHITE}║{BLUE}██{WHITE}║     {BLUE}██{WHITE}╔═{BLUE}██{WHITE}╗           ║",
+       f"║            {WHITE}╚{RED}███{WHITE}╔{RED}███{WHITE}╔╝  {RED}██{WHITE}║ {RED}██{WHITE}║      {RED}██{WHITE}║           ╚{BLUE}██████{WHITE}╗{BLUE}██{WHITE}║  {BLUE}██{WHITE}║{BLUE}██{WHITE}║  {BLUE}██{WHITE}║╚{BLUE}██████{WHITE}╗{BLUE}██{WHITE}║  {BLUE}██{WHITE}╗          ║",
+       f"║             {WHITE}╚══{WHITE}╝{WHITE}╚══{WHITE}╝   {WHITE}╚═{WHITE}╝ {WHITE}╚═{WHITE}╝      {WHITE}╚═{WHITE}╝            ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝          ║",
         "║                                                                                                     ║",
         "╚═════════════════════════════════════════════════════════════════════════════════════════════════════╝",
         
         f"{CYAN}           WiFi Bruteforce Tool {RESET}",
         f"{YELLOW}================================================================================{RESET}",
-        f"{GREEN}  Version: 1.0         Developed by Varun          Use responsibly! {RESET}",
-        f"{CYAN}  LinkedIn: https://www.linkedin.com/in/pentester-varun {RESET}",
+        f"{GREEN}  Version: 1.0         Developed by Mr. Pentest         Use responsibly! {RESET}",
+        f"{CYAN}  LinkedIn: https://www.linkedin.com/in/mr-pentest {RESET}",
         f"{YELLOW}================================================================================{RESET}" 
     ]
 
